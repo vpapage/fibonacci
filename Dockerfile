@@ -2,6 +2,6 @@ FROM python:3.9-slim
 
 WORKDIR /app
 
-COPY hello.py .
+COPY fibonacci.py .
 
-CMD ["python", "hello.py"]
+CMD ["python", "fibonacci.py"]
