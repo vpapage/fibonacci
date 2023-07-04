@@ -11,3 +11,15 @@ This is a dummy project using flask and an python app calculating fibonacci seri
     insteadOf = https://github.com/ 
     
 -->
+
+## TODO 
+    python fibonacci.py
+    GO TO: 127.0.0.1:5000
+
+    docker build -t vaspapts/fibonacci:new-flask .
+    docker login
+    docker push vaspapts/fibonacci:new-flask
+    docker build -t vaspapts/fibonacci:new-flask .
+
+    # run a Docker container using the created Docker image
+    docker run -p 5000:5000 vaspapts/fibonacci:new-flask
